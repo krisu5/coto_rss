@@ -81,7 +81,7 @@ else
 		}
 		
 		#form h1 {
-			font: Bold 50px Consolas;
+			font: Bold 50px Consolas, monospace;
 			margin: 0;
 			padding: 35px 0;
 			background: #0A59F8;
@@ -117,7 +117,7 @@ else
 			position: absolute;
 			bottom: 5px;
 			left: 5px;
-			font: 16px Consolas;
+			font: 16px Consolas, monospace;
 		}
 	</style>
   </head>
