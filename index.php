@@ -68,8 +68,8 @@ else
 	<link rel="stylesheet" href="normalize.css">
     <style type="text/css">
 		body, html {
-			font-family: "Segoe UI", Arial, sans-serif;
-			background: #212121;
+			font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+			background: #15161C;
 			height: 100%;
 			display: grid;
 		}
@@ -81,10 +81,10 @@ else
 		}
 		
 		#form h1 {
-			font: 700 50px "Segoe UI";
+			font: Bold 50px Consolas;
 			margin: 0;
 			padding: 35px 0;
-			background: #3F51B5;
+			background: #0A59F8;
 			color: #fff;
 			letter-spacing: 7px;
 		}
@@ -93,21 +93,23 @@ else
 			width: 99.9%;
 			border: 0;
 			text-align: center;
-			font: lighter 50px "Segoe UI";
+			font-weight: lighter;
+			font-size: 50px;
 			padding: 40px 0 45px;
 		}
 		
 		#form button {
 			width: 99.9%;
 			border: 0;
-			background: #4CAF50;
+			background: #66BB6A;
 			padding: 40px 0 45px;
 			font-size: 40px;
 		}
 		
 		#form button:hover {
-			background: #66BB6A;
+			background: #8dbc66;
 			cursor: pointer;
+			font-style: italic;
 		}
 		
 		#git {
@@ -115,7 +117,7 @@ else
 			position: absolute;
 			bottom: 5px;
 			left: 5px;
-			font: 16px Courier New;
+			font: 16px Consolas;
 		}
 	</style>
   </head>
